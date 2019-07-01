@@ -46,7 +46,7 @@ $ npm i sv-dropzone
 | hooveringClass | "dropzone-hoovering"                                                                   | string                                |
 | id             | "dropId"                                                                               | string                                |
 | autoDiscover   | false                                                                                  | bool                                  |
-| slot           | `<p class="dropzoneDefaultSentence"> drop your file(s) here or click to add file </p>` | element                               |
+| slot           | `<p class="dropzoneDefaultSentence"> drop your file(s) here or click </p>` | element                               |
 
 - All dropzone events can be found [here](https://www.dropzonejs.com/#events-list)
 - All dropzone options can be found [here](https://www.dropzonejs.com/#configuration-options)
@@ -54,6 +54,6 @@ $ npm i sv-dropzone
 [dropzonejs]: https://www.dropzonejs.com/
 [svelte]: https://svelte.dev/
 [sapper]: https://svelte.dev/
-[eventname]: https://www.dropzonejs.com/#events
+[eventname]: https://www.dropzonejs.com/#events-list
 [optionname]: https://www.dropzonejs.com/#configuration-options
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
