@@ -26,7 +26,7 @@ $ npm i sv-dropzone
 </script>
 
 <Dropzone
-  dropzoneClass="dropZoneClass"
+  dropzoneClass="dropzoneClass"
   hooveringClass="hooveringClass"
   id="id"
   dropzoneEvents={{ addedfile, drop, init }}
