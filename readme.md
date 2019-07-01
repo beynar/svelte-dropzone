@@ -1,7 +1,7 @@
 # sv-dropzone
 
 sv-dropzone is a simple & ssr ready wrapper around [dropzoneJS] for [svelte] and [sapper].
-![cover](https://user-images.githubusercontent.com/2182637/53614150-efbed780-3c2c-11e9-9204-a5d2e746faca.gif)
+![cover](https://raw.githubusercontent.com/arnaudDerbey/sv-dropzone/master/cover.png)
 
 ## Installation
 
