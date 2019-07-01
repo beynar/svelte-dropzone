@@ -1,0 +1,17 @@
+{
+  "name": "sv-dropzone",
+  "version": "1.0.1",
+  "description": "A simple && ssr ready wrapper around dropzone.JS for svelte/sapper.",
+  "keywords": [
+    "svelte",
+    "sapper",
+    "dropzone",
+    "file upload"
+  ],
+  "main": "index.svelte",
+  "author": "Arnaud DERBEY",
+  "license": "MIT",
+  "dependencies": {
+    "dropzone": "^5.5.1"
+  }
+}
