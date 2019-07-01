@@ -29,7 +29,7 @@ $ npm i sv-dropzone
   dropzoneClass="dropZoneClass"
   hooveringClass="hooveringClass"
   id="id"
-  dropzoneEvents={{ addedfile, drop }}
+  dropzoneEvents={{ addedfile, drop, init }}
   options={{ clickable: true, acceptedFiles: 'text/javascript', maxFilesize: 256, init }}>
   <p>hello</p>
 </Dropzone>
