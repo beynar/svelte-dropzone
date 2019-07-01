@@ -1,9 +1,9 @@
-
 # sv-dropzone
 
 sv-dropzone is a simple & ssr ready wrapper around [dropzoneJS] for [svelte] and [sapper].
-<div align="center"> 
-  
+
+<div align="center">
+
 ![cover](https://raw.githubusercontent.com/arnaudDerbey/sv-dropzone/master/cover.png)
 
 </div>
@@ -38,15 +38,15 @@ $ npm i sv-dropzone
 
 ## API
 
-| prop           | default                                                                                | type/structure                        |
-| -------------- | -------------------------------------------------------------------------------------- | ------------------------------------- |
-| dropzoneEvents | {}                                                                                     | object:{{ [eventName]: func}}         |
-| options        | { previewTemplate: "`<div/>`", dictDefaultMessage: "" }                                | object:{{ [optionName]: optionValue}} |
-| dropzoneClass  | "dropzone"                                                                             | string                                |
-| hooveringClass | "dropzone-hoovering"                                                                   | string                                |
-| id             | "dropId"                                                                               | string                                |
-| autoDiscover   | false                                                                                  | bool                                  |
-| slot           | `<p class="dropzoneDefaultSentence"> drop your file(s) here or click </p>` | element                               |
+| prop           | default                                                              | type/structure                        |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------- |
+| dropzoneEvents | {}                                                                   | object:{{ [eventName]: func}}         |
+| options        | { previewTemplate: "`<div/>`", dictDefaultMessage: "" }              | object:{{ [optionName]: optionValue}} |
+| dropzoneClass  | "dropzone"                                                           | string                                |
+| hooveringClass | "dropzone-hoovering"                                                 | string                                |
+| id             | "dropId"                                                             | string                                |
+| autoDiscover   | false                                                                | bool                                  |
+| slot           | `<p class="dropzoneDefaultSentence"> Drop files here to upload </p>` | element                               |
 
 - All dropzone events can be found [here](https://www.dropzonejs.com/#events-list)
 - All dropzone options can be found [here](https://www.dropzonejs.com/#configuration-options)
