@@ -11,7 +11,7 @@ $ npm i sv-dropzone
 
 ## Usage
 
-```js
+```javascript
 
 <script>
   import Dropzone from "sv-dropzone";
