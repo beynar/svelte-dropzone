@@ -31,7 +31,7 @@ $ npm i sv-dropzone
   id="id"
   dropzoneEvents={{ addedfile, drop, init }}
   options={{ clickable: true, acceptedFiles: 'text/javascript', maxFilesize: 256, init }}>
-  <p>Drop file(s) here to upload</p>
+  <p>Drop files here to upload</p>
 </Dropzone>
 
 ```
