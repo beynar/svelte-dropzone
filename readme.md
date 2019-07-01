@@ -1,6 +1,6 @@
 # sv-dropzone
 
-sv-dropzone is a simple & ssr ready wrapper around [dropzoneJS] for [svelte] and [sapper].
+sv-dropzone is a simple & ssr ready wrapper around [dropzone.JS] for [svelte] and [sapper].
 
 <div align="center">
 
@@ -51,7 +51,7 @@ $ npm i sv-dropzone
 - All dropzone events can be found [here](https://www.dropzonejs.com/#events-list)
 - All dropzone options can be found [here](https://www.dropzonejs.com/#configuration-options)
 
-[dropzonejs]: https://www.dropzonejs.com/
+[dropzone.js]: https://www.dropzonejs.com/
 [svelte]: https://svelte.dev/
 [sapper]: https://svelte.dev/
 [eventname]: https://www.dropzonejs.com/#events-list
