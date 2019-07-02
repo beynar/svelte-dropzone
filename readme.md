@@ -16,7 +16,7 @@ $ npm i svelte-dropzone
 
 ## Usage
 
-```svelte
+```html
 
 <script>
   import Dropzone from "sv-dropzone";

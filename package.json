@@ -1,6 +1,6 @@
 {
   "name": "svelte-dropzone",
-  "version": "1.0.01",
+  "version": "1.0.03",
   "description": "A simple & ssr ready wrapper around dropzone.JS for svelte/sapper.",
   "keywords": [
     "svelte",
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/arnaudDerbey/sv-dropzone.git"
+    "url": "https://github.com/arnaudDerbey/svelte-dropzone.git"
   },
   "bugs": {
-    "url": "https://github.com/arnaudDerbey/sv-dropzone/issues"
+    "url": "https://github.com/arnaudDerbey/svelte-dropzone/issues"
   },
   "main": "index.svelte",
   "author": "Arnaud DERBEY",
