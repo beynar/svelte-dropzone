@@ -4,7 +4,7 @@ sv-dropzone is a simple & ssr ready wrapper around [dropzone.JS] for [svelte] an
 
 <div align="center">
 
-![cover](https://raw.githubusercontent.com/arnaudDerbey/sv-dropzone/master/cover.png)
+![cover](https://raw.githubusercontent.com/arnaudDerbey/svelte-dropzone/master/cover.png)
 
 </div>
 

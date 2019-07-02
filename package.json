@@ -1,6 +1,6 @@
 {
   "name": "svelte-dropzone",
-  "version": "1.0.03",
+  "version": "1.0.05",
   "description": "A simple & ssr ready wrapper around dropzone.JS for svelte/sapper.",
   "keywords": [
     "svelte",
