@@ -1,4 +1,4 @@
-# sv-dropzone
+# svelte-dropzone
 
 sv-dropzone is a simple & ssr ready wrapper around [dropzone.JS] for [svelte] and [sapper].
 
@@ -11,7 +11,7 @@ sv-dropzone is a simple & ssr ready wrapper around [dropzone.JS] for [svelte] an
 ## Installation
 
 ```bash
-$ npm i sv-dropzone
+$ npm i svelte-dropzone
 ```
 
 ## Usage
