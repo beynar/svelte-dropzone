@@ -21,7 +21,7 @@
       ...options
     });
     if (autoDiscover !== true) {
-      svDropzone.autoDiscover = false;
+      Dropzone.autoDiscover = false;
     }
 
     svDropzone.on("addedfile", f => {
