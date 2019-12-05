@@ -1,6 +1,6 @@
 # svelte-dropzone
 
-sv-dropzone is a simple & ssr ready wrapper around [dropzone.JS] for [svelte] and [sapper].
+svelte-dropzone is a simple & ssr ready wrapper around [dropzone.JS] for [svelte] and [sapper].
 
 <div align="center">
 
