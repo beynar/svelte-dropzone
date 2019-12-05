@@ -19,7 +19,7 @@ $ npm i svelte-dropzone
 ```html
 
 <script>
-  import Dropzone from "sv-dropzone";
+  import Dropzone from "svelte-dropzone";
   const addedfile = file => console.log(file);
   const drop = event => console.log(event.target);
   const init = () => console.log("dropzone init ! 😍");
