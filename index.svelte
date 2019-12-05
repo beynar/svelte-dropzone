@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   export let dropzoneEvents = {};
   export let options = { previewTemplate: "<div/>" };
-  export let dropZoneClass = "dropzone";
+  export let dropzoneClass = "dropzone";
   export let hooveringClass = "dropzone-hoovering";
   export let id = "dropId";
   export let autoDiscover = false;
@@ -25,7 +25,7 @@
   this={DROPZONESSR}
   {dropzoneEvents}
   {options}
-  {dropZoneClass}
+  {dropzoneClass}
   {hooveringClass}
   {id}>
   <slot>
