@@ -8,7 +8,8 @@
   export let id = "dropId";
   export let autoDiscover = false;
 
-  onMount(() => {
+  onMount(async () => {
+    const Dropzone = (await import("dropzone")).default;
     const dropzoneElement = document.getElementById(id);
     if (!options.previewTemplate) {
       options.previewTemplate = "<div/>";
@@ -18,20 +19,20 @@
     }
 
     let svDropzone = new Dropzone(`div#${id}`, {
-      ...options
+      ...options,
     });
     if (autoDiscover !== true) {
       Dropzone.autoDiscover = false;
     }
 
-    svDropzone.on("addedfile", f => {
+    svDropzone.on("addedfile", (f) => {
       dropzoneElement.classList.remove(hooveringClass);
     });
-    svDropzone.on("dragenter", e => {
+    svDropzone.on("dragenter", (e) => {
       console.log(dropzoneElement);
       dropzoneElement.classList.toggle(hooveringClass);
     });
-    svDropzone.on("dragleave", e => {
+    svDropzone.on("dragleave", (e) => {
       dropzoneElement.classList.toggle(hooveringClass);
     });
     Object.entries(dropzoneEvents).map(([eventKey, eventFunc]) =>
